@@ -1,0 +1,9 @@
+{
+  "name": "kyou-no-kikuchan",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "check": "node --check src/worker.js"
+  }
+}

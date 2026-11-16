@@ -1,0 +1,9 @@
+{
+  "name": "kyou-no-kikuchan",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-16",
+  "d1_databases": [{ "binding": "DB", "database_name": "kyou-no-kikuchan", "database_id": "<database-id>" }],
+  "ai": { "binding": "AI" },
+  "vars": { "OWNER_EMAIL": "you@example.com" },
+  "observability": { "enabled": true, "traces": { "enabled": true } }
+}

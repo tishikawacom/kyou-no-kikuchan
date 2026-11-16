@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS entries (
+  id TEXT PRIMARY KEY,
+  body TEXT NOT NULL,
+  created_at INTEGER NOT NULL
+);
+CREATE TABLE IF NOT EXISTS settings (
+  key TEXT PRIMARY KEY,
+  value TEXT NOT NULL
+);
