@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "kyou-no-kikuchan",
+  "main": "src/worker.js",
+  "compatibility_date": "2026-11-16",
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "kyou-no-kikuchan",
+      "database_id": "57b5b6f7-f8eb-48a7-977a-ed6e6df592d1"
+    }
+  ],
+  "ai": { "binding": "AI" },
+  "vars": { "OWNER_EMAIL": "tishikawa.com@gmail.com" },
+  "observability": { "enabled": true, "traces": { "enabled": true } }
+}
