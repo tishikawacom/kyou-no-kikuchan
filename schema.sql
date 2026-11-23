@@ -35,3 +35,8 @@ CREATE TABLE IF NOT EXISTS events (
   created_at INTEGER NOT NULL
 );
 CREATE INDEX IF NOT EXISTS events_by_date ON events(starts_at);
+CREATE TABLE IF NOT EXISTS calendar_connections (
+  email TEXT PRIMARY KEY,
+  refresh_token TEXT NOT NULL,
+  updated_at INTEGER NOT NULL
+);
